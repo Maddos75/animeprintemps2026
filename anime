@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring 2026 Anime Lineup</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto+Mono&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0a0a0a, #1a0033);
+            color: #eee;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: rgba(0,0,0,0.7);
+        }
+        h1 {
+            font-size: 3.2rem;
+            margin: 0;
+            background: linear-gradient(90deg, #ff00cc, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.3rem;
+            color: #aaa;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: #1f1f2e;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 40px rgba(255, 0, 204, 0.3);
+        }
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .content {
+            padding: 20px;
+        }
+        .title {
+            font-size: 1.8rem;
+            margin: 0 0 10px 0;
+            color: #00ffff;
+        }
+        .date {
+            color: #ff00cc;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .synopsis {
+            color: #ccc;
+            font-size: 1.05rem;
+        }
+        .trailer-btn {
+            margin-top: 20px;
+            display: inline-block;
+            background: #ff00cc;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .trailer-btn:hover {
+            background: #00ffff;
+            color: #000;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Spring 2026</h1>
+        <p class="subtitle">Lineup Anime - Les sorties les plus attendues</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Dr. STONE SCIENCE FUTURE Part 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/600x340/0a0a2e/00ffff?text=Dr.+STONE+Science+Future+Part+3" alt="Dr. Stone">
+            <div class="content">
+                <h2 class="title">Dr. STONE SCIENCE FUTURE Part 3</h2>
+                <p class="date">2 avril 2026 • Crunchyroll</p>
+                <p class="synopsis">Senku et ses alliés continuent leur quête pour reconstruire la civilisation à l’aide de la science. Cette partie finale marque le climax de la série avec des défis encore plus grands, dont la conquête de l’espace.</p>
+                <a href="https://www.youtube.com/watch?v=FVNQnGIeRmc" target="_blank" class="trailer-btn">▶ Voir le Trailer</a>
+            </div>
+        </div>
+
+        <!-- Yomi no Tsugai (Daemons of the Shadow Realm) -->
+        <div class="card">
+            <img src="https://via.placeholder.com/600x340/1a0033/ff00cc?text=Yomi+no+Tsugai" alt="Yomi no Tsugai">
+            <div class="content">
+                <h2 class="title">Yomi no Tsugai (Daemons of the Shadow Realm)</h2>
+                <p class="date">4 avril 2026 • Crunchyroll (2 cours)</p>
+                <p class="synopsis">Dans un monde où certains humains commandent de puissants Daemons, les jumeaux Yuru et Asa, séparés à la naissance, doivent réunir leurs forces pour revendiquer leur droit de naissance et sauver le monde.</p>
+                <a href="https://www.youtube.com/watch?v=ufD2IvYem0k" target="_blank" class="trailer-btn">▶ Voir le Trailer</a>
+            </div>
+        </div>
+
+        <!-- Rooster Fighter -->
+        <div class="card">
+            <img src="https://via.placeholder.com/600x340/330000/ff6600?text=Rooster+Fighter" alt="Rooster Fighter">
+            <div class="content">
+                <h2 class="title">Rooster Fighter</h2>
+                <p class="date">Printemps 2026 • Adult Swim / Crunchyroll</p>
+                <p class="synopsis">Un coq errant ultra-puissant et badass parcourt le Japon pour combattre des démons géants. Action déjantée, humour absurde et combats explosifs garantis dans cette adaptation complètement folle.</p>
+                <a href="https://www.youtube.com/watch?v=1Qq234FqfQ0" target="_blank" class="trailer-btn">▶ Voir le Trailer</a>
+            </div>
+        </div>
+
+        <!-- Witch Hat Atelier -->
+        <div class="card">
+            <img src="https://via.placeholder.com/600x340/003322/00ffaa?text=Witch+Hat+Atelier" alt="Witch Hat Atelier">
+            <div class="content">
+                <h2 class="title">Witch Hat Atelier</h2>
+                <p class="date">6 avril 2026 (épisodes 1-2) • Crunchyroll</p>
+                <p class="synopsis">Dans un monde où seule la magie des sorcières est autorisée, la jeune Coco rêve de devenir sorcière. Son destin bascule quand elle découvre un secret qui pourrait tout changer. Un visuel époustouflant et une magie inventive.</p>
+                <a href="https://www.youtube.com/watch?v=d1reryPOMX0" target="_blank" class="trailer-btn">▶ Voir le Trailer</a>
+            </div>
+        </div>
+
+        <!-- Marriage Toxin -->
+        <div class="card">
+            <img src="https://via.placeholder.com/600x340/220022/ff44aa?text=Marriage+Toxin" alt="Marriage Toxin">
+            <div class="content">
+                <h2 class="title">Marriage Toxin</h2>
+                <p class="date">7 avril 2026 • Crunchyroll</p>
+                <p class="synopsis">Gero, un assassin professionnel élevé dans un clan de poisons, doit absolument se marier pour assurer l’avenir de sa famille. Il fait équipe avec une arnaqueuse au mariage dans une comédie d’action romantique complètement déjantée.</p>
+                <a href="https://www.youtube.com/watch?v=t0Ruh2QBpqg" target="_blank" class="trailer-btn">▶ Voir le Trailer</a>
+            </div>
+        </div>
+
+        <!-- Liar Game -->
+        <div class="card">
+            <img src="https://via.placeholder.com/600x340/112233/44aaff?text=Liar+Game" alt="Liar Game">
+            <div class="content">
+                <h2 class="title">Liar Game</h2>
+                <p class="date">Avril 2026 • Crunchyroll (nouveau anime)</p>
+                <p class="synopsis">Nao Kanzaki, une jeune femme extrêmement honnête, reçoit 100 millions de yens et se retrouve piégée dans le "Liar Game", un jeu psychologique mortel où le mensonge et la trahison règnent. Adaptation très attendue par Madhouse.</p>
+                <a href="https://www.youtube.com/watch?v=FIPOXj00ysQ" target="_blank" class="trailer-btn">▶ Voir le Trailer</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Site fait avec ❤️ pour les fans d’anime • Printemps 2026</p>
+        <p>Les trailers sont ceux disponibles publiquement. Les dates et liens peuvent évoluer.</p>
+    </footer>
+
+</body>
+</html>
